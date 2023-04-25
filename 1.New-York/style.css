@@ -27,6 +27,10 @@ body {
 h1, li>a, h3, strong, em, blockquote {
     color:#003884;
 }
+
+.clear {
+    clear:both;
+}
 /*HEADER*/
 header {
     text-align:center;
