@@ -3,10 +3,6 @@
     font-family:"Courgette";
     src: url("./1.instructions/ressources/fonts/Courgette-Regular.ttf") format("TrueType");
 }
-@font-face {
-    font-family:"Source Sans Pro";
-    src: url("./1.instructions/ressources/fonts/SourceSansPro-Regular.ttf") format("TrueType");
-}
 
 * {
     box-sizing:border-box;
@@ -87,14 +83,14 @@ footer a {
     color:#444;
 }
 /*IMAGES*/
-.left > img {
+.left {
     float:left;
 }
-.right > img {
+.right {
     float:right;
 }
 
-.img > img {
+.img {
     margin:5px;
 }
 
