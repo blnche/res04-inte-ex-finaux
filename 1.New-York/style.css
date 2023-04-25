@@ -1,0 +1,96 @@
+/*GENERAL*/
+@font-face {
+    font-family:"Courgette";
+    src: url("./1.instructions/ressources/fonts/Courgette-Regular.ttf") format("TrueType");
+}
+@font-face {
+    font-family:"Source Sans Pro";
+    src: url("./1.instructions/ressources/fonts/SourceSansPro-Regular.ttf") format("TrueType");
+}
+
+* {
+    box-sizing:border-box;
+}
+
+body {
+    max-width: 980px;
+    margin:auto;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size:18px;
+    color:#444;
+}
+/*VARIOUS*/
+.font-courgette {
+    font-family:Courgette, sans-serif;
+}
+
+h1, li>a, h3, strong, em, blockquote {
+    color:#003884;
+}
+/*HEADER*/
+header {
+    text-align:center;
+}
+
+h1 {
+    font-size:40px;
+    text-transform:uppercase;
+}
+/*NAV*/
+nav {
+    text-align:left;
+}
+
+nav a {
+    text-decoration:none;
+}
+/*QUOTE*/
+blockquote {
+    background-color:#d7e1ef;
+    text-align:center;
+    font-size:25px;
+}
+
+blockquote p:before {
+    content:"«";
+}
+blockquote p:after {
+    content:"»";
+}
+/*MAIN*/
+h2, h3 {
+    text-align:center;
+}
+h2 {
+    color:#4f89b9;
+    font-size:35px;
+}
+
+h3 {
+    font-size:25px;
+}
+/*FOOTER*/
+footer {
+    text-align:center;
+}
+
+footer p:nth-child(2):before {
+    content:"\00a9";
+}
+
+footer a {
+    font-size:14px;
+    color:#444;
+}
+/*IMAGES*/
+.left > img {
+    float:left;
+}
+.right > img {
+    float:right;
+}
+
+.img > img {
+    margin:5px;
+}
+
