@@ -54,14 +54,16 @@ h1 {
     text-transform:uppercase;
 }
 h2 {
-    font-size:2.5;
+    font-size:2.5em;
     line-height:1.2;
+    text-transform:uppercase;
+    text-align:left;
 }
 h3 {
-    font-size:1.5;
+    font-size:1.5em;
     line-height:1;
 }
-h1, h2, h3, p:first-letter {
+h1, h2, h3, p::first-letter {
     font-family:SpecialElite, sans-serif;
 }
 /*FOOTER*/
@@ -75,13 +77,13 @@ a {
 }
 footer > p:last-child {
     text-align:center;
-    font-size:2em;
+    font-size:3em;
 }
 /*CARACTERES SPECIAUX*/
-h3:before {
-    content:"❧";
+h3::before {
+    content:"❧ ";
 }
-main > p:first-letter {
+main > p::first-letter {
     font-size:2em;
     font-weight:bold;
     padding-right:5px;
